@@ -1,0 +1,19 @@
+# Секреты — никогда в git
+.env
+.env.*
+!.env.example
+
+# Зависимости и сборка
+node_modules/
+build/
+.dart_tool/
+
+# Образцы голосов (генерируются скриптами)
+voice-samples/
+
+# Система и редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

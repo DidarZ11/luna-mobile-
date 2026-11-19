@@ -1,0 +1,21 @@
+{
+  "name": "luna-server",
+  "version": "1.0.0",
+  "description": "Бэкенд Луны: хранит ключ Claude API и отвечает Flutter-приложению",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "voices": "node scripts/voice-samples.js",
+    "design": "node scripts/design-voice.js",
+    "save-voice": "node scripts/save-voice.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.11.0",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "msedge-tts": "^2.1.1"
+  }
+}
